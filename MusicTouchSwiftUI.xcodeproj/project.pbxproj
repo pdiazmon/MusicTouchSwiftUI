@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB807A1B26C435BF00AFF032 /* MusicTouchSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB807A1A26C435BF00AFF032 /* MusicTouchSwiftUIApp.swift */; };
+		EB807A1D26C435BF00AFF032 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB807A1C26C435BF00AFF032 /* ContentView.swift */; };
+		EB807A1F26C435C000AFF032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB807A1E26C435C000AFF032 /* Assets.xcassets */; };
+		EB807A2226C435C000AFF032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB807A2126C435C000AFF032 /* Preview Assets.xcassets */; };
+		EB807A2D26C435C100AFF032 /* MusicTouchSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB807A2C26C435C100AFF032 /* MusicTouchSwiftUITests.swift */; };
+		EB807A3826C435C100AFF032 /* MusicTouchSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB807A3726C435C100AFF032 /* MusicTouchSwiftUIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB807A2926C435C100AFF032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB807A0F26C435BF00AFF032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB807A1626C435BF00AFF032;
+			remoteInfo = MusicTouchSwiftUI;
+		};
+		EB807A3426C435C100AFF032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB807A0F26C435BF00AFF032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB807A1626C435BF00AFF032;
+			remoteInfo = MusicTouchSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB807A1726C435BF00AFF032 /* MusicTouchSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicTouchSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB807A1A26C435BF00AFF032 /* MusicTouchSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTouchSwiftUIApp.swift; sourceTree = "<group>"; };
+		EB807A1C26C435BF00AFF032 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB807A1E26C435C000AFF032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB807A2126C435C000AFF032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB807A2326C435C000AFF032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB807A2826C435C100AFF032 /* MusicTouchSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTouchSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB807A2C26C435C100AFF032 /* MusicTouchSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTouchSwiftUITests.swift; sourceTree = "<group>"; };
+		EB807A2E26C435C100AFF032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB807A3326C435C100AFF032 /* MusicTouchSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTouchSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB807A3726C435C100AFF032 /* MusicTouchSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTouchSwiftUIUITests.swift; sourceTree = "<group>"; };
+		EB807A3926C435C100AFF032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB807A1426C435BF00AFF032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB807A2526C435C100AFF032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB807A3026C435C100AFF032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB807A0E26C435BF00AFF032 = {
+			isa = PBXGroup;
+			children = (
+				EB807A1926C435BF00AFF032 /* MusicTouchSwiftUI */,
+				EB807A2B26C435C100AFF032 /* MusicTouchSwiftUITests */,
+				EB807A3626C435C100AFF032 /* MusicTouchSwiftUIUITests */,
+				EB807A1826C435BF00AFF032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB807A1826C435BF00AFF032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB807A1726C435BF00AFF032 /* MusicTouchSwiftUI.app */,
+				EB807A2826C435C100AFF032 /* MusicTouchSwiftUITests.xctest */,
+				EB807A3326C435C100AFF032 /* MusicTouchSwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB807A1926C435BF00AFF032 /* MusicTouchSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				EB807A1A26C435BF00AFF032 /* MusicTouchSwiftUIApp.swift */,
+				EB807A1C26C435BF00AFF032 /* ContentView.swift */,
+				EB807A1E26C435C000AFF032 /* Assets.xcassets */,
+				EB807A2326C435C000AFF032 /* Info.plist */,
+				EB807A2026C435C000AFF032 /* Preview Content */,
+			);
+			path = MusicTouchSwiftUI;
+			sourceTree = "<group>";
+		};
+		EB807A2026C435C000AFF032 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB807A2126C435C000AFF032 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB807A2B26C435C100AFF032 /* MusicTouchSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB807A2C26C435C100AFF032 /* MusicTouchSwiftUITests.swift */,
+				EB807A2E26C435C100AFF032 /* Info.plist */,
+			);
+			path = MusicTouchSwiftUITests;
+			sourceTree = "<group>";
+		};
+		EB807A3626C435C100AFF032 /* MusicTouchSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB807A3726C435C100AFF032 /* MusicTouchSwiftUIUITests.swift */,
+				EB807A3926C435C100AFF032 /* Info.plist */,
+			);
+			path = MusicTouchSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB807A1626C435BF00AFF032 /* MusicTouchSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB807A3C26C435C100AFF032 /* Build configuration list for PBXNativeTarget "MusicTouchSwiftUI" */;
+			buildPhases = (
+				EB807A1326C435BF00AFF032 /* Sources */,
+				EB807A1426C435BF00AFF032 /* Frameworks */,
+				EB807A1526C435BF00AFF032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicTouchSwiftUI;
+			productName = MusicTouchSwiftUI;
+			productReference = EB807A1726C435BF00AFF032 /* MusicTouchSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB807A2726C435C100AFF032 /* MusicTouchSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB807A3F26C435C100AFF032 /* Build configuration list for PBXNativeTarget "MusicTouchSwiftUITests" */;
+			buildPhases = (
+				EB807A2426C435C100AFF032 /* Sources */,
+				EB807A2526C435C100AFF032 /* Frameworks */,
+				EB807A2626C435C100AFF032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB807A2A26C435C100AFF032 /* PBXTargetDependency */,
+			);
+			name = MusicTouchSwiftUITests;
+			productName = MusicTouchSwiftUITests;
+			productReference = EB807A2826C435C100AFF032 /* MusicTouchSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB807A3226C435C100AFF032 /* MusicTouchSwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB807A4226C435C100AFF032 /* Build configuration list for PBXNativeTarget "MusicTouchSwiftUIUITests" */;
+			buildPhases = (
+				EB807A2F26C435C100AFF032 /* Sources */,
+				EB807A3026C435C100AFF032 /* Frameworks */,
+				EB807A3126C435C100AFF032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB807A3526C435C100AFF032 /* PBXTargetDependency */,
+			);
+			name = MusicTouchSwiftUIUITests;
+			productName = MusicTouchSwiftUIUITests;
+			productReference = EB807A3326C435C100AFF032 /* MusicTouchSwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB807A0F26C435BF00AFF032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EB807A1626C435BF00AFF032 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EB807A2726C435C100AFF032 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EB807A1626C435BF00AFF032;
+					};
+					EB807A3226C435C100AFF032 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EB807A1626C435BF00AFF032;
+					};
+				};
+			};
+			buildConfigurationList = EB807A1226C435BF00AFF032 /* Build configuration list for PBXProject "MusicTouchSwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB807A0E26C435BF00AFF032;
+			productRefGroup = EB807A1826C435BF00AFF032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB807A1626C435BF00AFF032 /* MusicTouchSwiftUI */,
+				EB807A2726C435C100AFF032 /* MusicTouchSwiftUITests */,
+				EB807A3226C435C100AFF032 /* MusicTouchSwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB807A1526C435BF00AFF032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB807A2226C435C000AFF032 /* Preview Assets.xcassets in Resources */,
+				EB807A1F26C435C000AFF032 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB807A2626C435C100AFF032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB807A3126C435C100AFF032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB807A1326C435BF00AFF032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB807A1D26C435BF00AFF032 /* ContentView.swift in Sources */,
+				EB807A1B26C435BF00AFF032 /* MusicTouchSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB807A2426C435C100AFF032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB807A2D26C435C100AFF032 /* MusicTouchSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB807A2F26C435C100AFF032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB807A3826C435C100AFF032 /* MusicTouchSwiftUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB807A2A26C435C100AFF032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB807A1626C435BF00AFF032 /* MusicTouchSwiftUI */;
+			targetProxy = EB807A2926C435C100AFF032 /* PBXContainerItemProxy */;
+		};
+		EB807A3526C435C100AFF032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB807A1626C435BF00AFF032 /* MusicTouchSwiftUI */;
+			targetProxy = EB807A3426C435C100AFF032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB807A3A26C435C100AFF032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB807A3B26C435C100AFF032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB807A3D26C435C100AFF032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicTouchSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = S3P397D556;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MusicTouchSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdiazmon.MusicTouchSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB807A3E26C435C100AFF032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicTouchSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = S3P397D556;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MusicTouchSwiftUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdiazmon.MusicTouchSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB807A4026C435C100AFF032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3P397D556;
+				INFOPLIST_FILE = MusicTouchSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdiazmon.MusicTouchSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicTouchSwiftUI.app/MusicTouchSwiftUI";
+			};
+			name = Debug;
+		};
+		EB807A4126C435C100AFF032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3P397D556;
+				INFOPLIST_FILE = MusicTouchSwiftUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdiazmon.MusicTouchSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicTouchSwiftUI.app/MusicTouchSwiftUI";
+			};
+			name = Release;
+		};
+		EB807A4326C435C100AFF032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3P397D556;
+				INFOPLIST_FILE = MusicTouchSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdiazmon.MusicTouchSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicTouchSwiftUI;
+			};
+			name = Debug;
+		};
+		EB807A4426C435C100AFF032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3P397D556;
+				INFOPLIST_FILE = MusicTouchSwiftUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pdiazmon.MusicTouchSwiftUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicTouchSwiftUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB807A1226C435BF00AFF032 /* Build configuration list for PBXProject "MusicTouchSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB807A3A26C435C100AFF032 /* Debug */,
+				EB807A3B26C435C100AFF032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB807A3C26C435C100AFF032 /* Build configuration list for PBXNativeTarget "MusicTouchSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB807A3D26C435C100AFF032 /* Debug */,
+				EB807A3E26C435C100AFF032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB807A3F26C435C100AFF032 /* Build configuration list for PBXNativeTarget "MusicTouchSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB807A4026C435C100AFF032 /* Debug */,
+				EB807A4126C435C100AFF032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB807A4226C435C100AFF032 /* Build configuration list for PBXNativeTarget "MusicTouchSwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB807A4326C435C100AFF032 /* Debug */,
+				EB807A4426C435C100AFF032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB807A0F26C435BF00AFF032 /* Project object */;
+}
