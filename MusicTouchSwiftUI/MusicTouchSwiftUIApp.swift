@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct MusicTouchSwiftUIApp: App {
+	
+	// Following app attributes are shared within the app
+	var controller = MusicTouchController()
+	
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			MainView(controller: controller)
         }
     }
 }
